@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script>
+		function receiveMessage(event) {
+			var ajax = new XMLHttpRequest();
+			ajax.open('POST', 'http://localhost:3000/rfid');
+			ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+			console.log(event.data);
+		 
+			ajax.send('rfid='+event.data);
+		}
+
+		function bodyOnLoad() {
+			var s = require('./server.js');
+			// console.log(s.getText());
+
+			s.runServer();
+			var win = nw.Window.get();
+			win.showDevTools();
+
+			var new_win = nw.Window.open('http://localhost:3000/', { "kiosk": true }, function (newWin) {
+
+				newWin.on('loaded', function () {
+					newWin.window.addEventListener('message', function(e){
+						console.log(e.data);
+					}, false)
+
+				});
+
+
+				// newWin.window.document.addEventListener('message', function (event) {
+				// 	console.log(event)
+				// }, false);
+
+
+			});
+
+			var app = nw.Window.get();
+
+			app.window.addEventListener('message',receiveMessage, false )
+
+
+		}
+	</script>
+</head>
+
+<body onload="bodyOnLoad()">
+	<h1>
+		Loading...
+	</h1>
+</body>
+
+</html>

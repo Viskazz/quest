@@ -1,0 +1,16 @@
+{
+    "name": "quest",
+    "version": "0.0.1",
+    "description": "Touch Panel Quest system",
+    "author": "alg-expert.ru",
+    "main": "nw-start.html",
+    "node-main": "server.js",
+   
+    "chromium-args": "--enable-logging=stderr --kiosk --allow-running-insecure-content --ignore-certificate-errors --remote-debugging-port=9222 --disable-logging=stderr --password-store=basic %U --kiosk-printing",
+    "window": {
+        "width": 1080,
+        "height": 600,
+        "printPreview":false,
+        "headerFooterEnabled": false
+    }
+}

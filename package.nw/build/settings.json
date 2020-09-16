@@ -1,0 +1,22 @@
+{
+	"settings": {
+		"groupsTimeout": 1,
+		"documentsTimeout": 2,
+		"showHeader": true,
+		"headerHeight": 250,
+		"headerImage": "images/headerImage.jpg",
+		"backgroundColor": "#fff",
+		"backgroundImage": "images/back.jpg",
+		"cardWidth": 533,
+		"cardHeight": 355,
+		"buttonBackgroundColor": "rgba(19, 115, 241, .8)",
+		"backButtonBackgroundColor": "rgba(19, 115, 241, .7)",
+		"backButtonForegroundColor": "rgba(255, 255, 255, 1)",
+		"buttonForegroundColor": "#cfcfff",
+		"buttonBorderRadius":"2px",
+		"buttonBorderStyle":"none",
+		"buttonBorderColor":"#000",
+		"buttonPadding":"1rem 1rem",
+		"buttonMargin":"1rem 6rem"
+	}
+}

@@ -1,0 +1,149 @@
+{
+	"variants": [
+		{
+			"index": 7,
+			"name": "защита веб-приложений WAS",
+			"question": 5
+		},
+		{
+			"index": 8,
+			"name": "Endpoint Security",
+			"question": 5
+		},
+		{
+			"index": 9,
+			"name": "Защита рабочих станций и реагирование",
+			"question": 5
+		},
+		{
+			"index": 10,
+			"name": "Универсальные шлюзы безопасности (UTM)",
+			"question": 5
+		},
+		{
+			"index": 11,
+			"name": "Аутентификация и электронная подпись",
+			"question": 5
+		},
+		{
+			"index": 12,
+			"name": "Сканер безопасности",
+			"question": 5
+		},
+		{
+			"index": 13,
+			"name": "Система предотвращения вторжения",
+			"question": 5
+		},
+		{
+			"index": 14,
+			"name": "Предотвращение утечек информации (DLP)",
+			"question": 5
+		},
+		{
+			"index": 15,
+			"name": "Защита АСУ ТП",
+			"question": 5
+		},
+		{
+			"index": 16,
+			"name": "Защита ГИС и КИИ",
+			"question": 5
+		},
+		{
+			"index": 17,
+			"name": "Защита от нацеленных атак (APT) /SandBox",
+			"question": 5
+		},
+		{
+			"index": 18,
+			"name": "Ситуационный центр управления ИБ (SOC)",
+			"question": 5
+		},
+		{
+			"index": 19,
+			"name": "Information Security as Service",
+			"question": 5
+		},
+		{
+			"index": 20,
+			"name": "Комплексная информационная безопасность",
+			"question": 5
+		},
+		{
+			"index": 21,
+			"name": "Свой вариант...",
+			"question": 5
+		},
+		{
+			"index": 22,
+			"name": "Алладин Р. Д.",
+			"question": 6
+		},
+		{
+			"index": 23,
+			"name": "Инфотекс (Infotecs)",
+			"question": 6
+		},
+		{
+			"index": 24,
+			"name": "Код безопасности",
+			"question": 6
+		},
+		{
+			"index": 25,
+			"name": "Лаборатория Касперского",
+			"question": 6
+		},
+		{
+			"index": 26,
+			"name": "FireEye",
+			"question": 6
+		},
+		{
+			"index": 27,
+			"name": "Kerio",
+			"question": 6
+		},
+		{
+			"index": 28,
+			"name": "Micro Focus (HPE)",
+			"question": 6
+		},
+		{
+			"index": 29,
+			"name": "Palo Alto Networks",
+			"question": 6
+		},
+		{
+			"index": 30,
+			"name": "Positive Technologies",
+			"question": 6
+		},
+		{
+			"index": 31,
+			"name": "Trend Micro",
+			"question": 6
+		},
+		{
+			"index": 32,
+			"name": "User Gate (ранее Entensys)",
+			"question": 6
+		},
+		{
+			"index": 33,
+			"name": "Imperva",
+			"question": 6
+		},
+		{
+			"index": 34,
+			"name": "Эшелон",
+			"question": 6
+		},
+		{
+			"index": 35,
+			"name": "Свой вариант...",
+			"question": 6
+		}
+	]
+}
